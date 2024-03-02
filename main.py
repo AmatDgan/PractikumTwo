@@ -4,8 +4,8 @@ z = int(input())
 c = (z - 48 * x)//y
 print(c)
 
-x = input().split()
-print(x, sep='\n')
+x, y = map(str, input().split())
+print(x, y, sep='\n')
 
 S, R = map(int, input().split())
 print(S + R)
